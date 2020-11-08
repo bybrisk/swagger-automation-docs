@@ -1,9 +1,10 @@
-// Package handlers delivery API.
+// Package classification of delivery API.
 //
 // This API adds, updates, modifies and deletes the delivery
 // for to the bybrisk maps platform
 //
 // Delivery API handles GET, POST, PUT and DELETE method
+// Documentation for delivery API
 //
 // Terms Of Service:
 //
