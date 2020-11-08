@@ -1,5 +1,6 @@
-// Package classification Petstore API.
+// Package classification Delivery API.
 //
+// Documentation for Delivry API
 // the purpose of this application is to provide an application
 // that is using plain go code to define an API
 //
