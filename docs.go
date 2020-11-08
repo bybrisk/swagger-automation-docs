@@ -1,19 +1,25 @@
-// Package classification of delivery API.
+// Package classification delivery API.
 //
-// Documentation for delivery API 
+// this API Adds, Updates, Modifies and deletes any delivery for Bybrisk Maps Platform
+//
+// This documentation is for our internal use only
+// external use of API is strictly forbidden
+//
+// Terms Of Service:
+//
+// there are no TOS at this moment and any Bybrisk member or Client is free to use API
 //
 //     Schemes: http, https
 //     Host: api.bybrisk.com
 //     BasePath: /
 //     Version: 0.0.1
-//     Contact: Shashank P. Sharma <imctobybrisk@gmail.com> http://csol99.blogspot.com
+//     Contact: Shashank P. Sharma<imctobybrisk@gmail.com> http://csol99.blogspot.com
 //
 //     Consumes:
 //     - application/json
 //
 //     Produces:
 //     - application/json
-//
 // swagger:meta
 
 package docs
