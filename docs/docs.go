@@ -1,6 +1,6 @@
 // Package classification delivery API.
 //
-// Documentation for delivery API
+// Documentation for delivery API.
 // the purpose of this application is to provide an application
 // that is using plain go code to define an API
 //
