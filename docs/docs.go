@@ -1,6 +1,6 @@
-// Package classification Delivery API.
+// Package classification delivery API.
 //
-// Documentation for Delivry API
+// Documentation for delivery API
 // the purpose of this application is to provide an application
 // that is using plain go code to define an API
 //
@@ -12,10 +12,8 @@
 // there are no TOS at this moment, use at your own risk we take no responsibility
 //
 //     Schemes: http, https
-//     Host: localhost
-//     BasePath: /v2
+//     BasePath: /
 //     Version: 0.0.1
-//     Contact: John Doe<john.doe@example.com> http://john.doe.com
 //
 //     Consumes:
 //     - application/json
