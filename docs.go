@@ -1,46 +1,27 @@
-// Package classification delivery API.
+// Package classification Petstore API.
 //
-// this API Adds, Updates, Modifies and deletes any delivery for Bybrisk Maps Platform
+// the purpose of this application is to provide an application
+// that is using plain go code to define an API
 //
-// This documentation is for our internal use only
-// external use of API is strictly forbidden
+// This should demonstrate all the possible comment annotations
+// that are available to turn go code into a fully compliant swagger 2.0 spec
 //
 // Terms Of Service:
 //
-// there are no TOS at this moment and any Bybrisk member or Client is free to use API
+// there are no TOS at this moment, use at your own risk we take no responsibility
 //
 //     Schemes: http, https
-//     Host: api.bybrisk.com
-//     BasePath: /
+//     Host: localhost
+//     BasePath: /v2
 //     Version: 0.0.1
-//     Contact: Shashank P. Sharma<imctobybrisk@gmail.com> http://csol99.blogspot.com
+//     Contact: John Doe<john.doe@example.com> http://john.doe.com
 //
 //     Consumes:
 //     - application/json
 //
 //     Produces:
 //     - application/json
+//
 // swagger:meta
 
 package docs
-
-import "github.com/bybrisk/delivery-api/data"
-
-// swagger:route POST /delivery delivery-methods POST
-// delivery API uploads a new delivery to bybrisk maps Platform.
-// responses:
-//   200: deliveryResponse
-
-// This is the response body.
-// swagger:response deliveryResponse
-type foobarResponseWrapper struct {
-	// in:body
-	Body data.DeliveryDetail
-}
-
-// swagger:parameters idOfdeliveryEndpoint
-type foobarParamsWrapper struct {
-	// This is the schema of your request body.
-	// in:body
-	Body data.DeliveryDetail
-}
